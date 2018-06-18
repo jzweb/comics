@@ -1,0 +1,7 @@
+This application run on port 3000
+If you want to run the app you have to locate on the root and using: nodemon server
+
+To make a call to the Api u can use:
+localhost:3000/comic ->GET REQUEST(to get all the comics)
+localhost:3000/comic ->POST REQUEST(to add a comic sending a json on the body)
+localhost:3000/comicId ->UPDATE REQUEST(to add a like in specific comic)
